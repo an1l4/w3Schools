@@ -103,7 +103,7 @@ func main() {
 
 	counter := 10
 
-	for index, _ := range sequence {
+	for index := range sequence {
 		sequence[index] = counter
 		counter = counter + 5
 	}
